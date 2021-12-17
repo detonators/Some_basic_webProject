@@ -14,10 +14,12 @@ body {
   overflow: hidden;
   margin: 0;
 }
-
+ /* Image size  */
 img {
   max-width: 100%;
 }
+
+ /* Layout of the Card */
 
 .card {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
@@ -27,8 +29,8 @@ img {
 }
 
 .card-header {
-  height: 200px;
-}
+  height: 200px;       /* Header  */
+} 
 
 .card-header img {
   object-fit: cover;
@@ -60,7 +62,7 @@ img {
   overflow: hidden;
   height: 40px;
   width: 40px;
-}
+}                                           /* All these to make the layout of the card*/
 
 .author-info {
   display: flex;
@@ -75,6 +77,9 @@ img {
   margin-top: 5px;
 }
 
+
+ /* Making the Animation for the card */
+
 .animated-bg {
   background-image: linear-gradient(
     to right,
@@ -87,6 +92,9 @@ img {
   animation: bgPos 1s linear infinite;
 }
 
+ 
+/* added animation to the text */
+
 .animated-bg-text {
   border-radius: 50px;
   display: inline-block;
@@ -94,6 +102,8 @@ img {
   height: 10px;
   width: 100%;
 }
+
+ /* Setting the key frames for the card background */
 
 @keyframes bgPos {
   0% {
