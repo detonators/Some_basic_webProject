@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+/* Body And colour */
+
 body {
   background-color: #f8f9fd;
   font-family: 'Roboto', sans-serif;
@@ -15,12 +17,16 @@ body {
   margin: 0;
 }
 
+/* Making container */
+
 .container {
   border-radius: 5px;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   width: 300px;
 }
+
+/* titles gonnqa be like  */
 
 .title {
   margin: 0;
@@ -32,6 +38,8 @@ body {
   opacity: 0.8;
 }
 
+/*  Class of headers */
+
 .header {
   background-color: #3e57db;
   color: #fff;
@@ -40,8 +48,8 @@ body {
 
 .header input {
   background-color: rgba(0, 0, 0, 0.3);
-  border: 0;
-  border-radius: 50px;
+  border: 0;                              /*  to reduce the border*/
+  border-radius: 50px;   
   color: #fff;
   font-size: 14px;
   padding: 10px 15px;
@@ -51,6 +59,8 @@ body {
 .header input:focus {
   outline: none;
 }
+
+/*  users name in the list will be displaced */
 
 .user-list {
   background-color: #fff;
@@ -63,18 +73,18 @@ body {
 
 .user-list li {
   display: flex;
-  padding: 20px;
+  padding: 20px;                         /* user name  */
 }
 
 .user-list img {
   border-radius: 50%;
-  object-fit: cover;
+  object-fit: cover;                     /* Making the image round */
   height: 50px;
   width: 50px;
 }
 
 .user-list .user-info {
-  margin-left: 10px;
+  margin-left: 10px; 
 }
 
 .user-list .user-info h4 {
@@ -84,6 +94,8 @@ body {
 .user-list .user-info p {
   font-size: 12px;
 }
+
+/*  Pseudo selector used */
 
 .user-list li:not(:last-of-type) {
   border-bottom: 1px solid #eee;
