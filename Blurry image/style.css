@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
+/* Changed the font */
+
 * {
   box-sizing: border-box;
 }
@@ -15,20 +17,28 @@ body {
   margin: 0;
 }
 
+/*Setting the background */
+
 .bg {
     background: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.telegraphindia.com%2Fjharkhand%2Finter-college-music-contest-at-bit%2Fcid%2F1752843&psig=AOvVaw0jJADA9-Iq1HtsO9sHii0J&ust=1639493401337000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNCkxYeD4fQCFQAAAAAdAAAAABAD') no-repeat center center/cover;
     position:absolute;
     top:-30;
     left:-30;
     width:calc(100vw + 60px) ;
-    heigth:calc(100vh + 60px);
+    height:calc(100vh + 60px);        /* to fill the screen */
     z-index: -1;
     filter:blur(0px)
 
 }
 
+/* For Loading text  */
+
 .loading-text{
     font-size: 50px;
+
     colour:#fff;
 
 }
+
+
+
